@@ -11,5 +11,5 @@ jobs:
            uses: HCL-TECH-SOFTWARE/onetest-perf-action@main
            with:
             workspace: C:\PTWsps\wsp1051
-            project: 1051Demo
-            suite: Tests/PBW_Fail.testsuite
+            project: GithubProject
+            suite: google.testsuite
