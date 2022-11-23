@@ -12,5 +12,5 @@ jobs:
            with:
             workspace: C:\PTWsps\wsp1051
             project: 1051Demo
-            suite: Tests/PBW_Fail.testsuite
+            suite: Schedules/Sched_13.testsuite
 
