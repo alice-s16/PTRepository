@@ -10,7 +10,7 @@ jobs:
          - name: HCL OneTest Performance
            uses: HCL-TECH-SOFTWARE/onetest-perf-action@main
            with:
-            workspace: C:\PTWsps\wsp1051_HCL
-            project: GithubProject
-            suite: Schedule_1.testsuite
+            workspace: C:\PTWsps\wsp1051
+            project: 1051Demo
+            suite: Tests/PBW_Fail.testsuite
 
