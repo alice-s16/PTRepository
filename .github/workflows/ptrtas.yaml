@@ -1,0 +1,18 @@
+name: Rational Test Automation Server
+
+on: workflow_dispatch
+
+jobs:
+    OTS-Action:
+        runs-on: self-hosted
+        name: Rational Test Automation Server
+        steps:
+         - name: Execute Test
+           uses: IBM/devopsauto-testserver-actions@main
+           with:
+            serverUrl: https://10.134.59.236.nip.io
+            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzNTg2MTQwOC1kMjJmLTQ0MjUtODdiOC0yMWY2YjI5MzBmMjQifQ.eyJpYXQiOjE2ODQ4NDY0NzIsImp0aSI6IjQxOWM3ODQ5LThlNDctNDJkZS04MWM0LWNhOWRjNjEwYzQ1ZCIsImlzcyI6Imh0dHBzOi8vMTAuMTM0LjU5LjIzNi5uaXAuaW8vYXV0aC9yZWFsbXMvdGVzdHNlcnZlciIsImF1ZCI6Imh0dHBzOi8vMTAuMTM0LjU5LjIzNi5uaXAuaW8vYXV0aC9yZWFsbXMvdGVzdHNlcnZlciIsInN1YiI6IjNlZWVlMTMzLWFjYTEtNDI0Yi1hZjhhLWJjMGUyZGE2NGI0OCIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJ0ZXN0c2VydmVyIiwic2Vzc2lvbl9zdGF0ZSI6ImYzOTI5ZDlmLTU1ZTUtNGJlOC05NWVkLWZmN2VkZWU1ZGRhMiIsInNjb3BlIjoidGVzdHNlcnZlciBlbWFpbCBvZmZsaW5lX2FjY2VzcyBwcm9maWxlIiwic2lkIjoiZjM5MjlkOWYtNTVlNS00YmU4LTk1ZWQtZmY3ZWRlZTVkZGEyIn0.KMkvtf41HzJx8ND0WljOQ-_XrSTRCTd-5FH06rVk0Pw
+            teamspace: Initial
+            project: AliceSVT
+            branch: master
+            assetId: <yyyyyyy>
