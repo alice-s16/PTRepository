@@ -11,5 +11,5 @@ jobs:
            uses: IBM/devopsauto-perftest-actions@main
            with:
             workspace: C:\PTWsps\1053Demo
-            project: GithubProject
-            suite: google.testsuite
+            project: CmdlineV2Prj_1
+            suite: sch5.testsuite
