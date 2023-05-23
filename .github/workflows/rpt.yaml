@@ -12,4 +12,4 @@ jobs:
            with:
             workspace: C:\PTWsps\1053Demo
             project: CmdlineV2Prj_1
-            suite: sch5.testsuite
+            suite: test1.testsuite
