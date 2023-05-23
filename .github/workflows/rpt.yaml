@@ -10,6 +10,6 @@ jobs:
          - name: Rational Performance Tester
            uses: IBM/devopsauto-perftest-actions@main
            with:
-            workspace: <C:\Data\SampleWorkspace>
-            project: <MyProject>
-            suite: <MySuite>
+            workspace: C:\PTWsps\1053Demo
+            project: GithubProject
+            suite: google.testsuite
