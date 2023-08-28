@@ -13,3 +13,4 @@ jobs:
             workspace: /Users/alicesebastian/HCL/hclonetest/workspace1054_86645 
             project: Proj1054
             suite: 1054Sched.testsuite
+            -vmargs: "-Dhptcostconfirm"
