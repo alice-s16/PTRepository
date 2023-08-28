@@ -10,9 +10,8 @@ jobs:
          - name: Execute Test
            uses: IBM/devopsauto-testserver-actions@main
            with:
-            serverUrl: https://10.134.59.236.nip.io
-            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzNTg2MTQwOC1kMjJmLTQ0MjUtODdiOC0yMWY2YjI5MzBmMjQifQ.eyJpYXQiOjE2ODQ4NTMxNTgsImp0aSI6ImEwOGU5MzEyLWEzNmQtNDIxOC05ZDc2LTMyMGQ0NTBjNzE0MCIsImlzcyI6Imh0dHBzOi8vMTAuMTM0LjU5LjIzNi5uaXAuaW8vYXV0aC9yZWFsbXMvdGVzdHNlcnZlciIsImF1ZCI6Imh0dHBzOi8vMTAuMTM0LjU5LjIzNi5uaXAuaW8vYXV0aC9yZWFsbXMvdGVzdHNlcnZlciIsInN1YiI6IjNlZWVlMTMzLWFjYTEtNDI0Yi1hZjhhLWJjMGUyZGE2NGI0OCIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJ0ZXN0c2VydmVyIiwic2Vzc2lvbl9zdGF0ZSI6IjBjZGQ5ZTNhLTQ0ZTUtNDgzMi04MWUzLTZkMjRkMWZkYTljNyIsInNjb3BlIjoidGVzdHNlcnZlciBlbWFpbCBvZmZsaW5lX2FjY2VzcyBwcm9maWxlIiwic2lkIjoiMGNkZDllM2EtNDRlNS00ODMyLTgxZTMtNmQyNGQxZmRhOWM3In0.JwrQQi3SPjM3TRvps_JEmMNV0A96SCtubJoraz6ABUU
-            teamspace: Initial Team Space
-            project: AliceSVT
+            serverUrl: https://apps.rtas-svt-weeklybuild-e3a3d814b8ff2369cc3d5b63c99b22ba-0000.us-south.containers.appdomain.cloud
+            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0NzAzNDM3Ni0yMmEzLTQ0ZGYtYjAwOC02YTY2ZjkxMmVkNGIifQ.eyJpYXQiOjE2OTMxOTg3NzYsImp0aSI6IjgzYzkwNDY3LTk4NjUtNDg1My05MWM0LTA4OTRjOTI0NTAxOCIsImlzcyI6Imh0dHBzOi8vYXBwcy5ydGFzLXN2dC13ZWVrbHlidWlsZC1lM2EzZDgxNGI4ZmYyMzY5Y2MzZDViNjNjOTliMjJiYS0wMDAwLnVzLXNvdXRoLmNvbnRhaW5lcnMuYXBwZG9tYWluLmNsb3VkL2F1dGgvcmVhbG1zL3Rlc3RzZXJ2ZXIiLCJhdWQiOiJodHRwczovL2FwcHMucnRhcy1zdnQtd2Vla2x5YnVpbGQtZTNhM2Q4MTRiOGZmMjM2OWNjM2Q1YjYzYzk5YjIyYmEtMDAwMC51cy1zb3V0aC5jb250YWluZXJzLmFwcGRvbWFpbi5jbG91ZC9hdXRoL3JlYWxtcy90ZXN0c2VydmVyIiwic3ViIjoiNTM2ZGExYTEtMzYzNi00M2I1LWIzYjgtM2JiMGE0NGZjYjFkIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6InRlc3RzZXJ2ZXIiLCJzZXNzaW9uX3N0YXRlIjoiYTRiMDRkNWUtM2ExMS00OGU5LWJkYjMtMDZjMzVjZmU5ODJkIiwic2NvcGUiOiJlbWFpbCBvZmZsaW5lX2FjY2VzcyBwcm9maWxlIiwic2lkIjoiYTRiMDRkNWUtM2ExMS00OGU5LWJkYjMtMDZjMzVjZmU5ODJkIn0.-YAn358hpobUFrNi3IOZXKB4lwYkVnrNiNQjhgZLv5w
+            project: PT_SVT
             branch: master
             assetId: 1634fbf5-d6ff-444c-b4fb-f5d6ff944c76
