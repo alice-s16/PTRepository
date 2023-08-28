@@ -1,0 +1,15 @@
+name: HCL OneTest Performance
+
+on: workflow_dispatch
+
+jobs:
+    Performance-Action:
+        name: HCL OneTest Performance
+        runs-on: self-hosted
+        steps:
+         - name: HCL OneTest Performance
+           uses: HCL-TECH-SOFTWARE/onetest-perf-action@main
+           with:
+            workspace: <C:\Data\SampleWorkspace>
+            project: <MyProject>
+            suite: <MySuite>
