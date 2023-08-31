@@ -10,6 +10,6 @@ jobs:
          - name: Rational Performance Tester
            uses: IBM/devopsauto-perftest-actions@main
            with:
-            workspace: /Users/alicesebastian/IBM/rationalsdp/workspace1053
-            project: Regression1021_SchName_Brotlii
-            suite: Schedules/Schd102_Customcode.testsuite
+            workspace: /Users/alicesebastian/HCL/hclonetest/workspace1054_RPT
+            project: CmdlineV2
+            suite: 021023_Sched_1.testsuite
